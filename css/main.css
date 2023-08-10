@@ -1,0 +1,233 @@
+/*reset*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; }
+
+
+body{
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: brown;    
+    row-gap: 3rem;
+}
+
+.areas{
+    min-height: 50vh;
+    display: flex;
+    align-items:first baseline;
+    justify-content: center;
+    text-align: center;    
+}
+
+.areas p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.areas input {
+    height: 1.9rem;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.areaTriangulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;    
+}
+
+#pantalla{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;    
+}
+
+#segundaPantalla{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.areaCuadrado{
+    display: grid;
+    place-items: center;
+    grid-template-rows: repeat(5, .1fr);
+    gap: 1rem;    
+}
+
+#pantallaCuadrado{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;    
+}
+
+#segundaPantallaC{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+.areaCirculo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+#pantallaCirculo{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;    
+}
+
+#segundaPantallaCirculo{
+    background-color: whitesmoke;
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: 600;
+    height: 100px;
+    width: 50%;
+    padding: .5rem;
+    border-radius: 10px;
+}
+
+h1{
+    width: 70%;
+    font-size: 3rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;    
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+    margin: 2rem 2rem 2rem 2rem;
+    padding: 2rem;
+}
+
+h1 span{
+    display: block;
+}
+
+.cuadrado{
+    width: 60%;
+    border-radius: 10px;
+    
+}
+
+.triangulo{
+    width: 60%;
+    border-radius: 10px;
+}
+
+.circulo{
+    width: 60%;
+    border-radius: 10px;
+}
+
+#btnTriangulo{
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+input:hover{
+    background-color: rgb(223, 235, 235);
+    color: rgb(70, 78, 85);
+}
+
+#btnCuadrado{
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#btnCirculo{
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 5px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#borrarTriangulo {
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#borrarCuadrado {
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+#borrarCirculo {
+    color: blue;
+    background-color: yellowgreen;
+    font-weight: bold;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px whitesmoke;
+    cursor: pointer;
+}
+
+footer{
+    padding: 1rem;
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+}
